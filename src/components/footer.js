@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react';
 
-export default () => (
-  <footer>
-    <p>© {new Date().getFullYear()} Marco Caramaschi</p>
-  </footer>
-)
+export default ({ siteAuthor }) => (
+    <footer>
+        <p>{`© ${new Date().getFullYear()} ${siteAuthor}`}</p>
+    </footer>
+);
